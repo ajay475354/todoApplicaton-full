@@ -1,7 +1,7 @@
 const express = require("express");
 const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
-const bcrypt = require("bcrypt");
+
 const jwt = require("jsonwebtoken");
 const format = require("date-fns/format");
 const isMatch = require("date-fns/isMatch");
